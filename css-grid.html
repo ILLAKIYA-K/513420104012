@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css-grid.html</title>
+</head>
+<body>
+<style>
+
+.container1{
+    background-color: grey;
+    font-size: 40px;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 250px 170px 200px;
+    grid-template-rows: 240px 125px;
+    justify-content: center;
+    align-content: center;
+align-items: end;
+justify-items: end;
+
+    
+
+}
+
+
+.container{
+    background-color: grey;
+    font-size: 40px;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat (3, 1fr);
+
+    column-gap: 25px;
+    row-gap: 20px;
+
+}
+
+
+.java{
+    
+grid-column: 2/ 2;
+grid-row: 1/2;}
+
+.html
+{
+    background-color: paleturquoise;
+ 
+}
+.css{
+    background-color: blue;
+}
+    
+
+.java{
+    background-color: red;
+grid-column: 1/2
+grid-row: 2/3;}
+    
+.mongodb{
+    background-color: blue;
+    }
+.python{
+    background-color:  yellow;
+    
+}
+    .oops{
+    background-color: lawngreen;
+    
+}
+</style>
+    <div class="container">
+        <div class=" el html">Html</div>
+        <div class="el css">css</div>
+        <div class="el java">java</div>
+        <div class="el mongodb">mongodb</div>
+        <div class="el python">python</div>
+        <div class="el oops">oops</div>
+    </div>
+
+    <div class="container1">
+        <div class=" el html">Html</div>
+        <div class="el css">css</div>
+        <div class="el java">java</div>
+        <div class="el mongodb">mongodb</div>
+        <div class="el python">python</div>
+        <div class="el oops">oops</div>
+    </div>
+     
+</body>
+</html>

@@ -1,0 +1,161 @@
+*{
+  box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    border:#fff;
+    
+    
+}
+h1{
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+nav a:link{
+    margin-left: 30px;
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    }
+
+
+h2{
+    font-family:  'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+
+h3{
+    font-family:  'Raleway', sans-serif;
+    font-size: 25px;
+}
+
+h5
+{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+    
+p{
+  font-size: 15px;
+}
+
+.image{
+    width:100%;
+    text-align: center;
+}
+
+.web{
+    float:left;
+    width:625px;
+    padding: 40px 5%;
+    background-color: #fff;
+  }
+
+
+aside{
+    
+ 
+    width: 360px;
+    float:right;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+
+}
+
+.color{
+    color: red;
+}
+
+h1 {
+    float: left;
+    margin-left: 60px;
+  }
+  nav {
+    float: right;
+    margin-top: 30px;
+    margin-right: 60px;
+    
+    
+  }
+  .ginny{
+    margin-left: 20px;
+  }
+  .susa{
+    text-align: center;
+  }
+  .clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+
+  h6{
+    text-align: center;
+    font-family: 'Raleway', sans-serif ;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  .icon{
+    width:40px;
+    height:20px;
+    margin-top: 5px;
+    background-color: lightgrey;
+  }
+
+  .second-icon{
+    width:40px;
+    height:20px;
+    margin-top: 5px;
+    background-color: lightgrey;
+  }
+
+  .third-icon{
+    width:40px;
+    height:20px;
+    margin-top: 5px;
+    background-color: lightgrey;
+  }
+
+  .fourth-icon{
+    width:40px;
+    height:20px;
+    margin-top: 5px;
+    background-color: lightgrey;
+  }
+
+  .fivth-icon{
+    width:40px;
+    height:20px;
+    margin-top: 5px;
+    background-color: lightgrey;
+  }
+
+  .iks{
+    text-align: center;
+    margin-left: 5px;
+     }
+
+     span{
+        color: red;
+     }
+     .button{
+      width: 20px;
+      height:10px;
+     }
+
+@media only screen and (max-width:600px) {
+  .container {
+  display:inline-flexbox;
+  width:100%;
+  }
+  .web {
+    display:inline-flexbox;
+    width:100%; 
+  }
+  
+  

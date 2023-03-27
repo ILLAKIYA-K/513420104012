@@ -1,0 +1,51 @@
+/*body
+{ border: 10px solid;
+}*/
+
+nav{
+    font-size: 18px;
+    background-color: palegreen;
+}
+
+nav a:link {
+    margin-right: 30px;
+    margin-top: 0;
+    display: inline-block
+    
+
+}
+
+.logo{
+    background-color: palegreen;
+}
+
+.image{
+    text-align: center;
+    margin-top: 0;
+    height:max-content;
+    width:max-content
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+h2{
+    margin-top: 0;
+    font-size: 60px;
+
+}
+
+.paragraph{
+    font-family: Graphik,sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 0 1.6rem;
+}
+
+.apart{
+    float: right;
+    padding-right: auto;
+    margin-top: 0;
+}
+
